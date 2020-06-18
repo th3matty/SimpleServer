@@ -1,10 +1,10 @@
 const mariadb = require("mariadb");
 
 const pool = mariadb.createPool({
-  host: "myfirstdb.c9gucoa8qxsa.us-east-2.rds.amazonaws.com",
-  user: "admin",
-  password: "admin1234",
-  database: "AWS_FINAL",
+  host: "eporqep6b4b8ql12.chr7pe7iynqr.eu-west-1.rds.amazonaws.com",
+  user: "abrmlq19mx6n0oa5",
+  password: "qw4bjomfpm89l2is",
+  database: "ffqnbhqkjnin1deq",
 });
 
 class ThingsDB {
